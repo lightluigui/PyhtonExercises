@@ -1,3 +1,4 @@
-real=float(input('Quanto dinheiro você tem? R$:'))
-dolar=real/5.15
-print('você tem R$ {:.2f} e pode comprar US {:.2f}'.format(real,dolar))
+pre = float(input('digite o preço do ´produto R$:'))
+des = pre - (pre * 5 / 100)
+print('o preço do produto {} vai ficar {:.1f} com 5% de desconto'.format(pre, des))
+
